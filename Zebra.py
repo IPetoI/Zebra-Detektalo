@@ -80,8 +80,8 @@ def folyamat(kivalasztott):
         Vegeredmeny = kep3.copy()
         kep_szurke = Szurke_kep3.copy()
 
-    soBors(kep_szurke)
-    cv.imshow("soBors", kep_szurke)
+    # soBors(kep_szurke)
+    # cv.imshow("soBors", kep_szurke)
 
     # Addit alap
     # zaj = np.zeros(kep_szurke.shape[:2], np.int16)
